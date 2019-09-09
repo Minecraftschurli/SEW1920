@@ -25,7 +25,7 @@ public class WordEntry {
 
     /**
      * @param word the word to set
-     * @throws IllegalArgumentException argument word is not correct
+     * @throws IllegalArgumentException if the argument word is not correct
      */
     public void setWord(String word) throws IllegalArgumentException {
         if (word == null){
@@ -35,7 +35,7 @@ public class WordEntry {
         } else if (word.matches("\\s+")){
             throw new IllegalArgumentException("Parameter word must be a word");
         } else {
-            this.word = word;
+            this.word = word.trim();
         }
     }
 
@@ -48,7 +48,7 @@ public class WordEntry {
 
     /**
      * @param url the URL to set
-     * @throws IllegalArgumentException argument url is not correct
+     * @throws IllegalArgumentException if the argument url is not correct
      */
     public void setUrl(String url) throws IllegalArgumentException {
         if (url == null){
