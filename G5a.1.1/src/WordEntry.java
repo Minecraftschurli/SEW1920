@@ -25,7 +25,7 @@ public class WordEntry {
 
     /**
      * @param word the word to set
-     * @throws IllegalArgumentException argument word is not correct
+     * @throws IllegalArgumentException if argument word is not correct
      */
     public void setWord(String word) throws IllegalArgumentException {
         if (word == null){
