@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="export" uploadOnCheckin="5fb79c86-a3c9-4d3e-b880-0c91884d1c11">
+    <serverData>
+      <paths name="export">
+        <serverdata>
+          <mappings>
+            <mapping deploy="\" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="export" />
+  </component>
+</project>

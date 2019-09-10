@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5fb79c86-a3c9-4d3e-b880-0c91884d1c11" name="export" url="">
+        <fileTransfer port="0" mountedRoot="C:\Users\georg\Documents\Schule\SJ1920\SEW_Export" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
