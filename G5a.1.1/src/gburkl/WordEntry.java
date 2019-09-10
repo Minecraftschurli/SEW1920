@@ -1,5 +1,7 @@
+package gburkl;
+
 /**
- * @author georg burkl
+ * @author Georg Burkl
  * @version 2019-09-09
  */
 public class WordEntry {
@@ -8,15 +10,16 @@ public class WordEntry {
     private String url;
 
     /**
-     * @param word the Word for this Entry
-     * @param url the URL for this Entry
+     * @param word the Word to set for this Entry
+     * @param url the URL to set for this Entry
      */
-    public WordEntry (String word, String url){
+    public WordEntry(String word, String url){
         this.setWord(word);
         this.setUrl(url);
     }
 
     /**
+     * Gets the word of this {@link WordEntry}
      * @return the word
      */
     public String getWord() {
@@ -24,6 +27,7 @@ public class WordEntry {
     }
 
     /**
+     * Sets the word if it is a not empty, non null {@link String}
      * @param word the word to set
      * @throws IllegalArgumentException if the argument word is not correct
      */
@@ -40,6 +44,7 @@ public class WordEntry {
     }
 
     /**
+     * Gets the url of this {@link WordEntry}
      * @return the url
      */
     public String getUrl() {
@@ -47,6 +52,7 @@ public class WordEntry {
     }
 
     /**
+     * Sets the url if it is a not empty, non null {@link String} and matches a valid url
      * @param url the URL to set
      * @throws IllegalArgumentException if the argument url is not correct
      */
@@ -63,6 +69,8 @@ public class WordEntry {
     }
 
     /**
+     * Gets the {@link String} representation of this {@link WordEntry}
+     * @see Object#toString()
      * @return the String representation of this object
      */
     @Override

@@ -1,8 +1,10 @@
+package gburkl;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
 /**
- * @author georg burkl
+ * @author Georg Burkl
  * @version 2019-09-09
  */
 public class WordList {
@@ -23,6 +25,7 @@ public class WordList {
     }
 
     /**
+     * Gets the {@link WordEntry} at the specified index if the index is in this {@link WordList}
      * @param index the list index to get
      * @return the {@link WordEntry} at the specified index
      * @throws IndexOutOfBoundsException if the specified index is not in the list
@@ -34,6 +37,7 @@ public class WordList {
     }
 
     /**
+     * Deletes the {@link WordEntry} matching the given word if it is not null and a valid word
      * @param word the word to delete
      * @return true if the specified Word got deleted
      * @throws IllegalArgumentException if argument word is not correct
@@ -59,6 +63,7 @@ public class WordList {
     }
 
     /**
+     * Adds a passed {@link WordEntry} to this {@link WordList} if it's not null
      * @param entry the {@link WordEntry} to add to the list
      * @throws IllegalArgumentException if argument entry is null
      */
@@ -72,6 +77,8 @@ public class WordList {
     }
 
     /**
+     * Gets the number of {@link WordEntry}s of this {@link WordList}
+     * @see Object#toString()
      * @return the length of the List
      */
     public int length() {
@@ -79,6 +86,7 @@ public class WordList {
     }
 
     /**
+     * Gets the {@link String} representation of this {@link WordList}
      * @return the String representation of this object
      */
     @Override

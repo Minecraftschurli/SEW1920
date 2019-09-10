@@ -1,5 +1,7 @@
+package gburkl;
+
 /**
- * @author georg burkl
+ * @author Georg Burkl
  * @version 2019-09-09
  */
 public class WordTrainer {
@@ -22,6 +24,7 @@ public class WordTrainer {
     }
 
     /**
+     * Sets the currently selected {@link WordEntry} to a random index in the {@link WordList}'s range and returns it
      * @return a randomly selected {@link WordEntry} from the {@link WordList}
      */
     public WordEntry selectRandom(){
@@ -33,6 +36,7 @@ public class WordTrainer {
     }
 
     /**
+     * Sets the currently selected {@link WordEntry} to the specified index if the index is in the {@link WordList}'s range and returns it
      * @param index the index to select
      * @return the selected {@link WordEntry}
      * @throws IndexOutOfBoundsException if the index is not in the list
@@ -45,6 +49,7 @@ public class WordTrainer {
     }
 
     /**
+     * Gets the currently selected {@link WordEntry}
      * @return the currently selected {@link WordEntry}
      */
     public WordEntry getCurrent() {
@@ -52,6 +57,15 @@ public class WordTrainer {
     }
 
     /**
+     * Gets the {@link WordList} associated with this {@link WordTrainer}
+     * @return the {@link WordList} associated with this {@link WordTrainer}
+     */
+    public WordList getList() {
+        return list;
+    }
+
+    /**
+     * Checks if the passed word matches the currently selected {@link WordEntry}
      * @param word the word to check
      * @return true if the current word equals the passed word
      */
@@ -60,6 +74,7 @@ public class WordTrainer {
     }
 
     /**
+     * Checks if the passed word matches the currently selected {@link WordEntry} ignoring the case
      * @param word the word to check
      * @return true if the current word equals the passed word ignoring the case
      */
