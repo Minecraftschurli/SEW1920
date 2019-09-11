@@ -32,6 +32,10 @@ public class Main {
         try {
             WordEntry correct = new WordEntry("Test", "www.google.com");
             c++;
+            System.out.println(correct.getUrl());
+            c++;
+            System.out.println(correct.getWord());
+            c++;
             WordList l = new WordList(correct);
             c++;
             l.add(new WordEntry("Hello", "www.tgm.ac.at"));
