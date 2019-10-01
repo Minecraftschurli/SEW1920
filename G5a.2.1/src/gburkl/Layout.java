@@ -23,6 +23,15 @@ public class Layout extends JPanel {
     private JLabel allNum;
     private JButton addWord;
 
+
+    private JButton saveBtn;
+    private JLabel saveLabel;
+    private JTextField savePath;
+
+    private JButton loadBtn;
+    private JLabel loadLabel;
+    private JTextField loadPath;
+
     /**
      *
      */
@@ -33,13 +42,23 @@ public class Layout extends JPanel {
 
         this.correctLabel = new JLabel(Constants.CORRECT);
         this.correctNum = new JLabel("0");
-        this.correctNum.setHorizontalTextPosition(SwingConstants.CENTER);
+        this.correctNum.setHorizontalAlignment(SwingConstants.CENTER);
         this.reset = new JButton(Constants.RESET);
 
         this.allLabel = new JLabel(Constants.ALL);
         this.allNum = new JLabel("0");
-        this.allNum.setHorizontalTextPosition(SwingConstants.CENTER);
+        this.allNum.setHorizontalAlignment(SwingConstants.CENTER);
         this.addWord = new JButton(Constants.ADD_WORD);
+
+        this.saveBtn = new JButton(Constants.SAVE);
+        this.saveLabel = new JLabel(Constants.PATH_LABEL);
+        this.saveLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+        this.savePath = new JTextField();
+
+        this.loadBtn = new JButton(Constants.LOAD);
+        this.loadLabel = new JLabel(Constants.PATH_LABEL);
+        this.loadLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+        this.loadPath = new JTextField();
 
         this.setLayout(new BorderLayout());
 
@@ -52,13 +71,22 @@ public class Layout extends JPanel {
         this.add(this.image,BorderLayout.CENTER);
 
         Container c1 = new Container();
-        c1.setLayout(new GridLayout(2, 3));
+        c1.setLayout(new GridLayout(4, 3));
         c1.add(this.correctLabel);
         c1.add(this.correctNum);
         c1.add(this.reset);
+
         c1.add(this.allLabel);
         c1.add(this.allNum);
         c1.add(this.addWord);
+
+        c1.add(this.saveBtn);
+        c1.add(this.saveLabel);
+        c1.add(this.savePath);
+
+        c1.add(this.loadBtn);
+        c1.add(this.loadLabel);
+        c1.add(this.loadPath);
         this.add(c1,BorderLayout.SOUTH);
     }
 

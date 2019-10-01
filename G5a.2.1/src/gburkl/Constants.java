@@ -16,4 +16,7 @@ public interface Constants {
     String ADD_WORD = "Add word";
 
     String DEFAULT_FILE = "wordtrainer.json";
+    String SAVE = "Save";
+    String LOAD = "Load";
+    String PATH_LABEL = "Path:";
 }
