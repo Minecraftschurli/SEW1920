@@ -7,6 +7,8 @@ package gburkl;
 public class WordTrainer {
     private WordList list;
     private int current;
+    private int checked;
+    private int correct;
 
 
     /**
@@ -71,7 +73,12 @@ public class WordTrainer {
      * @return true if the current word equals the passed word
      */
     public boolean check(String word){
-        return this.getCurrent().getWord().equals(word.trim());
+        this.checked++;
+        if (this.getCurrent().getWord().equals(word.trim())){
+            this.correct++;
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -80,6 +87,32 @@ public class WordTrainer {
      * @return true if the current word equals the passed word ignoring the case
      */
     public boolean checkIgnoreCase(String word){
-        return this.getCurrent().getWord().toLowerCase().trim().equals(word.toLowerCase().trim());
+        this.checked++;
+        if (this.getCurrent().getWord().toLowerCase().trim().equals(word.toLowerCase().trim())){
+            this.correct++;
+            return true;
+        }
+        return false;
+    }
+
+    public void reset(){
+        this.checked = 0;
+        this.correct = 0;
+    }
+
+    /**
+     * Gets the number of check requests
+     * @return the number of check requests
+     */
+    public int getChecked() {
+        return checked;
+    }
+
+    /**
+     * Gets the number of correct words
+     * @return the number of correct words
+     */
+    public int getCorrect() {
+        return correct;
     }
 }
