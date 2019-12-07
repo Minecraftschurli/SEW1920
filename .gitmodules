@@ -1,0 +1,11 @@
+[submodule "Figuren"]
+	path = Figuren
+	url = ./Figuren
+
+[submodule "Verschluesselung"]
+	path = Verschluesselung
+	url = ./Verschluesselung
+
+[submodule "Word-Trainer"]
+	path = Word-Trainer
+	url = ./Word-Trainer
