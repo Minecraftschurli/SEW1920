@@ -9,3 +9,7 @@
 [submodule "Word-Trainer"]
 	path = Word-Trainer
 	url = ./Word-Trainer
+
+[submodule "gitgburkl"]
+	path = gitgburkl
+	url = ./gitgburkl
