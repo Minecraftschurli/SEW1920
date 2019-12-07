@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Figuren" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Verschluesselung" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Word-Trainer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitgburkl" vcs="Git" />
   </component>
 </project>
