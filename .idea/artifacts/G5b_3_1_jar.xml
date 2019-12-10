@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="G5b.3.1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/G5b_3_1_jar</output-path>
+    <root id="archive" name="G5b.3.1.jar">
+      <element id="module-output" name="G5b.3.1" />
+      <element id="module-test-output" name="G5b.3.1" />
+      <element id="module-source" name="G5b.3.1" />
+    </root>
+  </artifact>
+</component>

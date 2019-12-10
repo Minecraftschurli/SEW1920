@@ -5,6 +5,5 @@
     <mapping directory="$PROJECT_DIR$/Figuren" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Verschluesselung" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Word-Trainer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/gitgburkl" vcs="Git" />
   </component>
 </project>
