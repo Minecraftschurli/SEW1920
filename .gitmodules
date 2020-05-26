@@ -9,6 +9,7 @@
 [submodule "Word-Trainer"]
 	path = Word-Trainer
 	url = ./Word-Trainer
-[submodule "sew-3dhit-lotto-Minecraftschurli"]
+
+[submodule "G6a.2.1"]
 	path = G6a.2.1
 	url = ./G6a.2.1
