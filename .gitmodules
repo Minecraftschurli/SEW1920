@@ -11,4 +11,4 @@
 	url = ./Word-Trainer
 [submodule "sew-3dhit-lotto-Minecraftschurli"]
 	path = G6a.2.1
-	url = https://github.com/TGM-HIT/sew-3dhit-lotto-Minecraftschurli.git
+	url = ./G6a.2.1
