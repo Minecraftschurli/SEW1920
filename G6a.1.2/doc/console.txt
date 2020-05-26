@@ -1,0 +1,20 @@
+create : LinkedList : 42200
+create : ArrayList : 5500
+addEnd : LinkedList : 426264600
+addEnd : ArrayList : 247483700
+addFirst : LinkedList : 231508300
+addFirst : ArrayList : 391492800
+deleteHalf : LinkedList : 85418400
+deleteHalf : ArrayList : 729456541500
+sumIterator : LinkedList : 23025400
+sum LinkedList = 157200892994
+sumIterator : ArrayList : 23407700
+sum ArrayList = -810102540756
+sumIndex : LinkedList : 797687818500
+sum LinkedList = 157200892994
+sumIndex : ArrayList : 10423700
+sum ArrayList = -810102540756
+listIterator : LinkedList : 169967400
+listIterator : ArrayList : 91269400
+listIndex : LinkedList : 1023237761000
+listIndex : ArrayList : 157399100

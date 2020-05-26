@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/E5a.2.2/E5a.2.2.iml" filepath="$PROJECT_DIR$/E5a.2.2/E5a.2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E6a.1.4/E6a.1.4.iml" filepath="$PROJECT_DIR$/E6a.1.4/E6a.1.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Figuren/Figuren.iml" filepath="$PROJECT_DIR$/Figuren/Figuren.iml" />
       <module fileurl="file://$PROJECT_DIR$/G5a.1.1/G5a.1.1.iml" filepath="$PROJECT_DIR$/G5a.1.1/G5a.1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/G5a.1.2/G5a.1.2.iml" filepath="$PROJECT_DIR$/G5a.1.2/G5a.1.2.iml" />
@@ -13,7 +14,15 @@
       <module fileurl="file://$PROJECT_DIR$/G5b.3.1/G5b.3.1.iml" filepath="$PROJECT_DIR$/G5b.3.1/G5b.3.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/G5b.3.2/G5b.3.2.iml" filepath="$PROJECT_DIR$/G5b.3.2/G5b.3.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/G5b.3.3/G5b.3.3.iml" filepath="$PROJECT_DIR$/G5b.3.3/G5b.3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6a.1.2/G6a.1.2.iml" filepath="$PROJECT_DIR$/G6a.1.2/G6a.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6a.2.1/G6a.2.1.iml" filepath="$PROJECT_DIR$/G6a.2.1/G6a.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6a.2.2/G6a.2.2.iml" filepath="$PROJECT_DIR$/G6a.2.2/G6a.2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6b.2.1/G6b.2.1.iml" filepath="$PROJECT_DIR$/G6b.2.1/G6b.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6b.2.3/G6b.2.3.iml" filepath="$PROJECT_DIR$/G6b.2.3/G6b.2.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Misc/Misc.iml" filepath="$PROJECT_DIR$/Misc/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEW1920.iml" filepath="$PROJECT_DIR$/SEW1920.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G6a.2.1/Struktur.iml" filepath="$PROJECT_DIR$/G6a.2.1/Struktur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
       <module fileurl="file://$PROJECT_DIR$/Verschluesselung/Verschluesselung.iml" filepath="$PROJECT_DIR$/Verschluesselung/Verschluesselung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Word-Trainer/Word-Trainer.iml" filepath="$PROJECT_DIR$/Word-Trainer/Word-Trainer.iml" />
     </modules>
